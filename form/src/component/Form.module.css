@@ -20,6 +20,65 @@
     transition: .5s;
 }
 
+/* HACER  RESPONSIVE EL FORM */
+
+@media screen and (min-width:270px) and (max-width: 450px){
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 80%;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.273);
+        transition: .5s;
+    }
+}
+@media screen and (min-width:450px) and (max-width: 750px){
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 60%;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.273);
+        transition: .5s;
+    }
+}
+@media screen and (min-width:750px) and (max-width: 920px){
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 35%;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.273);
+        transition: .5s;
+    }
+}
+@media screen and (min-width:1020px) and (max-width: 1420px){
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 40%;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.273);
+        transition: .5s;
+    }
+}
+
+
+
+
+
 
 
 
